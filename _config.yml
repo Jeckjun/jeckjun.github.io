@@ -1,46 +1,46 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+permalink: /:categories/:title/
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MatJek
-description: > # this means to ignore newlines until "baseurl:"
-  Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/matjek"
-url: "https://shawnteoh.github.io"
-permalink: /:year/:month/:day/:title
-repository: ShawnTeoh/matjek
-paginate: 5
-
-# MatJek specific configurations
-github_profile: "https://github.com/ShawnTeoh"
-user: "John Doe"
-user_email: "john@doe.com"
-contact_url: "https://goo.gl/tVljbV"
-google_tracking_id: "UA-96359860-1"
-google_site_verification: "UA-96359860-1"
-disqus_shortname: "matjek"
-
-# Build settings
+highlighter: rouge
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
-future: true
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+
+paginate: 10
+paginate_path: "page/:num"
+baseurl: ""
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
+title: "bit-ranger"
+email: sincerebravefight@gmail.com
+description: ""
+github:
+  username: bit-ranger
+swiftype:
+  searchId: iXZyPokVfxFaBTvi64Y6
+gitment:
+    repo: blog
+    client_id: a6fb73b3e790e234bab8
+    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+
+url: "https://bit-ranger.github.io/blog"
+imgrepo: "https://bit-ranger.github.io/blog/static/img"
+
+
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
+
