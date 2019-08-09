@@ -25,11 +25,11 @@ defaults:
 
 
 
-title: "bit-ranger"
-email: sincerebravefight@gmail.com
-description: ""
+title: "俊哥的博客"
+email: xj316945699@qq.com
+description: "随手开发笔记"
 github:
-  username: bit-ranger
+  username: Jeckjun
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
@@ -37,8 +37,8 @@ gitment:
     client_id: a6fb73b3e790e234bab8
     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
 
-url: "https://bit-ranger.github.io/blog"
-imgrepo: "https://bit-ranger.github.io/blog/static/img"
+url: "https://jeckjun.github.io/"
+imgrepo: "https://jeckjun.github.io/static/img"
 
 
 #url: "http://127.0.0.1:4000"
